@@ -241,7 +241,7 @@ listPrimes :: Integer -> IList
 listPrimes n = [x | x<-[1..n], isPrime x] 
 
 manyPrimes :: IList
-manyPrimes = listPrimes 7000  -- beautiful as Sex! 
+manyPrimes = listPrimes 7000
 
 bigPrimes :: IList
 bigPrimes = [x | x<-[10000000..12000000], isPrime x]
